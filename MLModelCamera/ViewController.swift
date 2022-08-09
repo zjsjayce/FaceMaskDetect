@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  CoreMLPlayground
 //
-//  Created by Jayce on 22/017/2022.
+//  Created by Jayce on 22/07/2022.
 //  Copyright © 2022 Jayce. All rights reserved.
 //
 
