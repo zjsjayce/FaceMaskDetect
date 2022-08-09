@@ -2,9 +2,6 @@
 
 [Create ML](https://developer.apple.com/documentation/create_ml) enable us to train [Core ML](https://developer.apple.com/documentation/coreml) models just with Drag-and-Drop. Then, `MLModelCamera` enable to test the `.mlmodel` files as a real-time `Image Classiffication` or `Object Detection` app just with Drag-and-Drop.
 
-![](READMEResources/figure.png)
-
-
 ## Usage
 
 - Put your `.mlmodel` files into the `/models` folder.
@@ -24,26 +21,19 @@ After running the app on your iOS device, you can choose the model with the "Cha
 
 ### The models are created with Create ML
 
-- Xcode 10+
+- Xcode 12+
 - iOS 12+
 
 ### The models are created with coremltools
 
-- Xcode 9+
-- iOS 11+
+- Xcode 12+
+- iOS 12+
 
 ## How to find trained models
 
-todo
-
-## How to find data for training
-
-todo
-
+- I used the Yolov5s as the model to detect the mask wearing status.
 
 ## Author
 
-**[Jayce Zhang]()**
-
-iOS programmer from Japan.
+**[Jayce Zhang](zjs.jayce@gmail.com)**
 
