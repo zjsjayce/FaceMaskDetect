@@ -33,6 +33,11 @@ After running the app on your iOS device, you can choose the model with the "Cha
 
 - I used the Yolov5s as the model to detect the mask wearing status.
 
+## How to find trained models
+
+- If you want to run at your own device, you need to adjust the developer account the siging certificate.
+
+
 ## Author
 
 **[Jayce Zhang]()**
