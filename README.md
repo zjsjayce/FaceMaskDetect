@@ -35,5 +35,5 @@ After running the app on your iOS device, you can choose the model with the "Cha
 
 ## Author
 
-**[Jayce Zhang](zjs.jayce@gmail.com)**
+**[Jayce Zhang]()**
 
