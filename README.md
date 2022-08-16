@@ -1,6 +1,6 @@
 # Real time FaceMask Detect
 
-![Overall](https://github.com/zjsjayce/FaceMaskDetect/blob/main/Poster.png)
+![Overall](https://github.com/zjsjayce/FaceMaskDetect/blob/main/Architecture.jpeg)
 
 
 
