@@ -1,14 +1,15 @@
 # Real time FaceMask Detect
 
-![Overall](https://github.com/zjsjayce/FaceMaskDetect/blob/main/Architecture.jpeg)
+![Overall](https://github.com/zjsjayce/FaceMaskDetect/blob/main/Architecture.pdf)
 
 
+[Train Model](https://colab.research.google.com/drive/1q1_Xji4wg2pDYHeJx_m75mSZYLeUXK_q?usp=sharing) is the first step in this project, you could find it in the colab or in the ModelTrain folder. Then you output your the model or use my model at [weights' folder](https://github.com/zjsjayce/FaceMaskDetect/tree/main/ModelTrain/Weights). Next you need to convert the .pt into CoreML, the [source code](https://colab.research.google.com/drive/1er09xThb4TFp_yuhCLVXmiYi-XTNnUPC?usp=sharing) you could also find in ModelTrain folder.
 
 [Create ML](https://developer.apple.com/documentation/create_ml) enable us to train [Core ML](https://developer.apple.com/documentation/coreml) models just with Drag-and-Drop. Then, `MLModelCamera` enable to test the `.mlmodel` files as a real-time `Image Classiffication` or `Object Detection` app just with Drag-and-Drop.
 
 ## Usage
 
-- Put your `.mlmodel` files into the `/models` folder.
+- Put your `.mlmodel` files into the `Application/models` folder.
 
 That's it! You don't need to add the models manually to the project.
 
