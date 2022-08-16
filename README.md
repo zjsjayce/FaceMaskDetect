@@ -1,6 +1,6 @@
-# FaceMaskDetect
+# Real time FaceMask Detect
 
-/Users/jayce/Documents/GitHub/FaceMaskDetect/Poster.png
+![Poster](/Users/jayce/Documents/GitHub/FaceMaskDetect/Poster.png)
 
 [Create ML](https://developer.apple.com/documentation/create_ml) enable us to train [Core ML](https://developer.apple.com/documentation/coreml) models just with Drag-and-Drop. Then, `MLModelCamera` enable to test the `.mlmodel` files as a real-time `Image Classiffication` or `Object Detection` app just with Drag-and-Drop.
 
