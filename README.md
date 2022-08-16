@@ -1,11 +1,15 @@
 # Real time FaceMask Detect
 
-![Overall](https://github.com/zjsjayce/FaceMaskDetect/blob/main/Architecture.pdf)
+![Overall](https://github.com/zjsjayce/FaceMaskDetect/blob/main/Architecture.jpeg)
 
 
-[Train Model](https://colab.research.google.com/drive/1q1_Xji4wg2pDYHeJx_m75mSZYLeUXK_q?usp=sharing) is the first step in this project, you could find it in the colab or in the ModelTrain folder. Then you output your the model or use my model at [weights' folder](https://github.com/zjsjayce/FaceMaskDetect/tree/main/ModelTrain/Weights). Next you need to convert the .pt into CoreML, the [source code](https://colab.research.google.com/drive/1er09xThb4TFp_yuhCLVXmiYi-XTNnUPC?usp=sharing) you could also find in ModelTrain folder.
+- [Train Model](https://colab.research.google.com/drive/1q1_Xji4wg2pDYHeJx_m75mSZYLeUXK_q?usp=sharing) is the first step in this project, you could find it in the colab or in the ModelTrain folder. 
 
-[Create ML](https://developer.apple.com/documentation/create_ml) enable us to train [Core ML](https://developer.apple.com/documentation/coreml) models just with Drag-and-Drop. Then, `MLModelCamera` enable to test the `.mlmodel` files as a real-time `Image Classiffication` or `Object Detection` app just with Drag-and-Drop.
+- Then you need to output your the model or you could use my model at [here](https://drive.google.com/drive/folders/1jKv8Vnbv-os5Ab9D2FCE4p36-tPFXId5?usp=sharing). 
+
+- Next you need to convert the .pt into CoreML, the [source code](https://colab.research.google.com/drive/1er09xThb4TFp_yuhCLVXmiYi-XTNnUPC?usp=sharing) you could also find in ModelTrain folder.
+
+- [Create ML](https://developer.apple.com/documentation/create_ml) enable us to train [Core ML](https://developer.apple.com/documentation/coreml) models just with Drag-and-Drop. Then, `MLModelCamera` enable to test the `.mlmodel` files as a real-time `Image Classiffication` or `Object Detection` app just with Drag-and-Drop.
 
 ## Usage
 
